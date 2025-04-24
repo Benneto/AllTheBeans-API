@@ -1,0 +1,50 @@
+# Visual Studio cache, build results and user-specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+**/bin/
+**/obj/
+
+# Rider/JetBrains (not needed, but harmless if added)
+.idea/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+
+# Logs
+*.log
+
+# Auto-generated files
+Generated_Code/
+
+# EF Core Migrations snapshots (optional, keep if you want versioned)
+**/Migrations/*.csproj.user
+**/Migrations/AppDbContextModelSnapshot.cs
+
+# Local databases
+*.mdf
+*.ldf
+*.db
+*.sqlite
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+
+# Ignore temp files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+
+# Ignore .DS_Store (Mac) just in case
+.DS_Store
